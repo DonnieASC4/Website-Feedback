@@ -1,0 +1,314 @@
+body {
+    background-color: black;
+    overflow: auto;
+    display: block;
+    
+}
+
+
+.topSection {
+    display: block;
+}
+
+header {
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    justify-content: center;
+    border: 10px solid red;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 20px
+   
+}
+
+
+
+nav {
+    width: 100%;
+}
+
+nav li {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color:forestgreen;
+    
+}
+
+.navBar {
+    display: inline-block;
+    width: 32.5%;
+    text-align: center;
+}
+
+#lastBar {
+    display: inline-block;
+    width: 32.5%;
+    margin-right: 0px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 1073px)  {
+    #lastBar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .navBar {
+        display: inline-block;
+        width: 32.8%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}
+
+.bigWords {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.standInPic {
+        border-radius: 20px;
+        width: 480px;
+        height: 417px;
+        display: inline-block;
+        position: relative;
+        left: 110px;
+        margin-top: 30px;
+        border: 3px solid red;
+}
+
+.pageDescription {
+        border-radius: 20px;
+        font-size: 22px; 
+        text-align: center;
+        border: 3px solid red;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        width: 480px;
+        height: 398px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-right: 110px;
+        color: white;
+        background-color: seagreen;
+        
+        
+}
+
+@media only screen and (max-width: 1220px)  {
+    .standInPic {
+        border-radius: 20px;
+        border: 3px solid red;
+        left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        
+    }
+    
+    .pageDescription {
+        border-radius: 20px;
+        position: relative;
+        font-size: 22px; 
+        text-align: center;
+        border: 3px solid red;
+        display: block;
+        width: 480px;
+        height: 320.067px;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        background-color: seagreen;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+.Feedback {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+
+
+
+
+@media only screen and (min-width: 900px)  {
+    #heading {
+        width: 60%;
+        margin: 0 auto;
+        background-color: dodgerblue;
+        height: 70px;
+        text-align:center;
+        border: 3px solid red;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+        
+        
+    }
+    .allMessages{
+        position:relative;
+        height:70%;
+        margin: 0 auto;
+        width: 60%;
+        border: 3px solid red;
+        border-radius: 20px;
+        background-color: white;
+        overflow-y: scroll;
+        overflow-wrap: break-word;
+    }
+    
+    .userContainer{
+    position:relative;
+    height:10%;
+    margin: 20px auto 0 auto;
+    width: 60%;
+    border: 3px solid red;
+    border-radius: 20px;
+    background-color: oldlace;
+}
+
+
+.textContainer div p{
+    /*GOOGLE FONTS*/
+    /*font-family: 'Asul', sans-serif;*/
+    /*font-family: 'Alike Angular', serif;*/
+    /*font-family: 'Eczar', serif;*/
+    font-size: 1em;
+    display: inline-block;
+    width:23%;
+    margin:0;
+}
+
+input{
+    width:75%;
+    border: 3px solid red;
+}
+
+.textContainer div{
+    width:100%;
+}
+
+.GObutton{
+    width:50%;
+    margin: 0 auto;
+}
+
+.GObutton input{
+    width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 899px) {
+    #heading {
+        margin: 0 auto;
+        background-color: dodgerblue;
+        height: 70px;
+        text-align:center;
+        border: 3px solid red;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+        width: 480px;
+    }
+    
+    .allMessages {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        height:70%;
+        width: 480px;
+        background-color: white;
+        border: 2px solid blue;
+        overflow-y: scroll;
+        overflow-wrap: break-word;
+        border: 3px solid red;
+        border-radius: 20px;
+    }
+    
+    .userContainer{
+    position:relative;
+    height:10%;
+    margin: 20px auto 0 auto;
+    width: 480px;
+    border: 2px solid yellow;
+    background-color: oldlace;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+
+.textContainer div p{
+    font-size: 1em;
+    display: inline-block;
+    width:23%;
+    margin:0;
+}
+
+input{
+    width:75%;
+}
+
+.textContainer div{
+    width:100%;
+}
+
+.GObutton{
+    width:50%;
+    margin: 0 auto;
+}
+
+.GObutton input{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 140px;
+    
+}

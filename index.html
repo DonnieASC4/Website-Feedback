@@ -1,0 +1,106 @@
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Feedback</title>
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+        apiKey: "AIzaSyAIW6zu44sOvxb7ZVV27qCOjRzNwlERSAc",
+        authDomain: "test-website-7363e.firebaseapp.com",
+        databaseURL: "https://test-website-7363e.firebaseio.com",
+        projectId: "test-website-7363e",
+        storageBucket: "test-website-7363e.appspot.com",
+        messagingSenderId: "747361631626"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    
+    <script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+
+    <!--main js-->
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <div class="topSection">
+        <header>
+            <h1>Fabulas legam tamen</h1>
+
+        </header>
+        <nav>
+            <li class="navBar">
+                <a href="https://donnieasc4.github.io/Test-Webpage/">
+                Home
+                </a>
+            </li>
+            <li class="navBar">
+                <a href="#">
+                Website Feedback
+                </a>
+            </li>
+            <li id="lastBar">
+                <a href="#">
+                Contact
+                </a>
+            </li>
+        
+        </nav>
+    </div>
+    
+    
+    
+    
+    <img class="standInPic" src= "thing3.jpg">
+        
+    <p class="pageDescription"> <span class=bigWords>Welcome to Website Feedback: </span> Aute ubi incididunt, si sint ipsum noster ingeniis in esse pariatur ubi 
+        transferrem hic quem fabulas id distinguantur. Ab velit mandaremus 
+        comprehenderit, ad ita esse admodum. Est duis praetermissum, expetendis quorum 
+        proident de fabulas anim proident cernantur te proident malis arbitror. 
+        Mandaremus est cillum occaecat, commodo labore ipsum ad sint, 
+        </p>
+    <div class="Feedback">
+        <div id="heading">
+            Talk about this website
+        </div>
+        <div class="allMessages">
+        
+        </div>
+    
+    <!--For user to input messages-->
+        <div class="userContainer">
+            <form>
+                <div class="textContainer">
+                    <div>
+                        <p>Your name:</p><input id="name" type="text">
+                    </div>
+                    <div>
+                        <p>Message:</p><input id="message" type="text">
+                    </div>
+                </div>
+                <div class="GObutton">
+                    <input type="reset" onclick="updateDB();" value="Submit/Update">
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    
+
+    <footer>
+        Copyright 2018 Donnie Sparks
+        
+    </footer>
+    
+    
+</body>
+</html>
