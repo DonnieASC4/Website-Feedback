@@ -187,6 +187,7 @@ nav a {
         background-color: white;
         overflow-y: scroll;
         overflow-wrap: break-word;
+        margin-top:30px;
     }
     
     .userContainer{
@@ -197,6 +198,7 @@ nav a {
     border: 3px solid red;
     border-radius: 20px;
     background-color: oldlace;
+    
 }
 
 
@@ -257,6 +259,7 @@ input{
         overflow-wrap: break-word;
         border: 3px solid red;
         border-radius: 20px;
+        margin-top:30px;
     }
     
     .userContainer{
@@ -280,6 +283,7 @@ input{
 
 input{
     width:75%;
+    border: 3px solid red;
 }
 
 .textContainer div{
